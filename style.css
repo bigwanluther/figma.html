@@ -190,6 +190,8 @@ main {
     height: 100%;
     background: #008080;
     font-weight: bold;
+    clip-path: polygon(75% 0,100% 0,100% 100%,52% 100%);
+    z-index: -1;
   }
 
   .policies a:hover{
